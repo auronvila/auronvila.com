@@ -15,6 +15,8 @@ export default function Terminal() {
     github: () => <a href="https://github.com/auronvila" target="_blank"
                      rel="noopener noreferrer">https://github.com/auronvila</a>,
     contact: "auronvila.dev@gmail.com",
+    linkedin:<a href="https://www.linkedin.com/in/auronvila" target="_blank"
+                rel="noopener noreferrer">auronvila</a>,
     about: () => (
       <pre style={{textWrap: 'wrap'}}>
       {`As a Multidisciplinary Engineer, I specialize in building core functionalities and designing scalable, efficient systems that deliver impactful solutions across various domains.
