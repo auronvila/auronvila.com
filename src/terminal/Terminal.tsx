@@ -15,32 +15,33 @@ export default function Terminal() {
     github: () => <a href="https://github.com/auronvila" target="_blank"
                      rel="noopener noreferrer">https://github.com/auronvila</a>,
     contact: "auronvila.dev@gmail.com",
-    linkedin:<a href="https://www.linkedin.com/in/auronvila" target="_blank"
-                rel="noopener noreferrer">auronvila</a>,
+    linkedin: <a href="https://www.linkedin.com/in/auronvila" target="_blank"
+                 rel="noopener noreferrer">auronvila</a>,
     about: () => (
       <pre style={{textWrap: 'wrap'}}>
-      {`As a Multidisciplinary Engineer, I specialize in building core functionalities and designing scalable, efficient systems that deliver impactful solutions across various domains.
+{`As a Multidisciplinary Engineer, I specialize in building core systems and high-performance functionalities across hardware, software, and infrastructure layers.
 
 === TECH EXPERTISE ===
+  - Core Development: C++, Go
   - Frontend: React, TypeScript
   - Backend: Nest.js, Node.js, .NET Core
-  - Performance-Critical Systems: Go
-  - Mobile Development: Native app development
+  - Mobile Development: Native app development (React Native, Xcode, Android Studio)
   - Automation & Scripting: Python
   - UI Styling: Tailwind CSS
-  - Infrastructure & Ops: Linux system administration
+  - Infrastructure & Ops: Linux system administration, DevOps
   - Tools: Git, Postman, Database management
 
 === INNOVATION & VISION ===
-I expanded into Blockchain and Solidity, building decentralized applications that bridge the gap between traditional software systems and emerging technologies.
+I expanded into Blockchain and Solidity, developing decentralized applications that bridge traditional software with emerging technologies.
 
-My goal is to merge IoT and electronics development with software expertise, enabling smarter, connected solutions.
+Currently integrating IoT and embedded systems with software engineering—building smarter, connected products using microcontrollers, sensors, and real-time data systems.
 
-Driven by continuous learning and a deep passion for solving complex problems, I aim to bridge hardware, software, and infrastructure.
+Driven by curiosity and deep problem-solving, I aim to unify hardware, software, and infrastructure into scalable, future-proof solutions.
 
-Whether it’s delivering production-ready systems, architecting scalable APIs, or creating future-proof IoT solutions, I thrive on building technology that makes an impact.
+Whether it's architecting scalable APIs, writing performance-critical systems in C++ and Go, or designing next-gen IoT products, I focus on engineering impactful, production-grade technologies.
 ==============================`}
-    </pre>
+</pre>
+
     ),
     help: () => `Available commands are: ${getCommands()}`,
   };
