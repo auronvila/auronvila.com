@@ -14,7 +14,7 @@ export default function Terminal() {
     whoami: "auronvila",
     github: () => <a href="https://github.com/auronvila" target="_blank"
                      rel="noopener noreferrer">https://github.com/auronvila</a>,
-    contact: "auronvila.dev@gmail.com",
+    contact: "contact@auronvila.com",
     linkedin: <a href="https://www.linkedin.com/in/auronvila" target="_blank"
                  rel="noopener noreferrer">auronvila</a>,
     about: () => (
