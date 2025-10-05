@@ -1,0 +1,16 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify-n8n:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send request to n8n
+        run: |
+          curl -X POST ${{ secrets.N8N_WEBHOOK_URL }} \
+          -H "Content-Type: application/json" \
+          -d '{"branch":"main"}'
