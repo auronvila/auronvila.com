@@ -11,7 +11,7 @@ export default function Terminal() {
   }, []);
 
   const commands = {
-    whoami: "auronvila ---",
+    whoami: "auronvila",
     github: () => <a href="https://github.com/auronvila" target="_blank"
                      rel="noopener noreferrer">https://github.com/auronvila</a>,
     contact: "contact@auronvila.com",
